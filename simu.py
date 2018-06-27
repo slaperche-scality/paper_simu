@@ -16,7 +16,7 @@ EC_N = 120
 
 # Range for k in EC(n, k).
 EC_K_MIN = 4
-EC_K_MAX = 40
+EC_K_MAX = 100
 
 # Reliability thresholds above which a node is out.
 #
