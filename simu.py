@@ -81,6 +81,7 @@ def plot(results):
         plt.plot(x, result['data'],
                  label='{} reliability'.format(result['threshold']))
     plt.ylim((0, 100))
+    plt.yticks(range(0, 101, 10), ["{}%".format(x) for x in range(0, 101, 10)])
     plt.xlim((EC_K_MIN, EC_K_MAX))
     plt.title('Evolution of the reliability')
     plt.xlabel('EC k parameter')
